@@ -38,7 +38,6 @@ angular.module('app').directive('resultPanel', [function() {
 
 angular.module('app').filter('genderFilter', [function() {
     return function(gender, p2) {
-        console.log(p2.lastName);
         if (gender == 'M') {
             return 'Male';
         } else if (gender == 'F') {
